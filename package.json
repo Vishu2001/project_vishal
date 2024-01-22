@@ -1,0 +1,16 @@
+{
+  "name": "fyle_assignment",
+  "version": "1.0.0",
+  "description": "This is my assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Vishal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+}
+
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Adjusted border style and margin for the container */
+        .container {
+            border: 2px solid black;
+            margin: 20px auto; /* Added auto margin to center the container horizontally */
+            padding: 20px; /* Added padding for better appearance */
+        }
+    </style>
+    <title>GitHub Repositories Viewer</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div id="userInfoContainer">
+            <!-- User details dynamically generated using JavaScript -->
+        </div>
+        <div class="repositories-container" id="repositoriesContainer">
+            <!-- Repository items dynamically generated using JavaScript -->
+        </div>
+        <div class="pagination" id="paginationContainer">
+            <!-- Pagination controls dynamically generated using JavaScript -->
+        </div>
+        <div class="row mt-3 mb-3">
+            <div class="col-sm-6">
+                <input type="number" class="form-control" id="perPageInput" placeholder="Enter repositories per page (1-100)">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="searchInput" placeholder="Search repositories">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* Add your custom styles here */
+
+#userInfoContainer {
+    margin-bottom: 20px;
+}
+
+#userDetails {
+    display: flex;
+    align-items: center;
+}
+
+#userImage {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#userText {
+    max-width: 500px;
+}
+
+#userDetails h2,
+#userDetails p {
+    margin: 0;
+}
+
+#socialMedia a {
+    margin-right: 10px;
+}
+
+#githubUrl {
+    margin-top: 10px;
+}
+
+#githubUrlText {
+    word-break: break-all;
+}
+
+.repoCard {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.repoTitle {
+    color: #007bff;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.repoDescription {
+    margin: 0;
+}
+
+.techStack .tech {
+    background-color: #007bff;
+    color: #fff;
+    padding: 3px 8px;
+    margin-right: 5px;
+    border-radius: 3px;
+    font-size: 0.8em;
+}
+
+.repo-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tech-stack {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.pagination {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    cursor: pointer;
+}
+/* Add your custom styles here */
+
+.pagination button {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.ctr {
+    /* Add your center alignment styles here */
+    display: inline-block; /* Ensures elements are displayed on the same line */
+}
